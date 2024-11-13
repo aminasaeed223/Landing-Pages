@@ -215,7 +215,24 @@
 .logosec{
     width: 100%;
     height: 283px;
+    
 }
+.lgos{
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    gap:100px;
+    padding: 100px;
+    margin-top: 40px;
+    
+}
+.lgos img{
+    width: 100px;
+    height: 80px;
+}
+
 
 
 
