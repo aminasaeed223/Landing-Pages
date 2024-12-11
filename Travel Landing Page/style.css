@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,9 +42,9 @@
     text-align: center;
     align-content: center;
     margin-top: -10px;
-    /* padding: 5px; */
+    padding: 5px;
 }
-.traveller{
+/* .traveller{
     float: right;
     overlay: hidden;
     padding: 10px;
@@ -61,8 +61,8 @@
     color: #181E4B;
     font-size: 84px;
     line-height: 89px;
-    letter-spacing: -4px;
-    
+    letter-spacing: -4px; */
+/*     
 }
 .content{
     font-size: 16px;
@@ -91,9 +91,9 @@
     padding: 40px;
     text-align: center;
     gap: 30px;
-}
+} */
 
-.below{
+/* .below{
     display: flex;
     gap: 10px;
 
@@ -122,8 +122,8 @@
     font-family: "Volkhov", serif;
     margin-top: 30px;
     
-}
-.category{
+} */
+/* .category{
     font-size: 18px;
     color: #5E6282;
 }
@@ -144,8 +144,8 @@
     margin-top: 40px;
     padding: 40px;
     justify-items: center;
-}
-.text{
+} */
+/* .text{
     text-wrap: wrap;
     font-size: 16px;
     font-weight: 400;
@@ -167,8 +167,8 @@
 .card-container{
     display: flex;
     gap: 30px;
-    padding: 100px;
-}
+    padding: 100px; */
+/* }
 .card2{
     height: 457px;
     width: 314px;
@@ -186,8 +186,8 @@
 .section3{
     background-color: white;
     width: 100%;
-    height: 525px;
-}
+    height: 525px; */
+/* }
 .secup{
     display: flex;
     justify-content: space-between;
@@ -207,8 +207,8 @@
     gap: 10px;
     margin-top: 10px;
 }
-.display-card{
-    display: flex;
+.display-card{ */
+    /* display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -235,8 +235,8 @@
 .secondlast{
     width: 100%;
     height: 550px;
-}
-.rect{
+} */
+/* .rect{
     width: 1000px;
     height: 407px;
     border: 1px solid #e4e4e4;
@@ -271,8 +271,8 @@
     padding: 100px;
     gap: 100px;
 
-}
-.rectbutton{
+} */
+/* .rectbutton{
     width: 180px;
     height: 68px;
     border-radius: 10px;
@@ -297,9 +297,9 @@ footer{
     font-size: 13px;
     color:rgba(94, 98, 130, 1);
     
-    font-weight: 400;
+    font-weight: 400; */
     
-    
+/*     
 }
 .jadoo{
     padding: 10px;
@@ -315,9 +315,9 @@ footer{
     list-style-type: none;
     gap: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
 
-    
+/*     
     
 }
 .socialp{
@@ -348,8 +348,8 @@ footer{
    flex-direction: column;
    gap: 40px;
 }
-.icons li{
-    list-style-type: none;
+.icons li{ */
+    /* list-style-type: none;
 }
 .icons{
     display: flex;
@@ -370,9 +370,240 @@ footer{
 .bottomline{
     text-align: center;
     color: #5E6282;
-    font-size: 14px;
+    font-size: 14px; */
+/* } */
+/* 
+
+
+ */ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.header {
+    width: 100%;
+    height: auto; /* Change to auto for flexibility */
+    font-family: "Open Sans", sans-serif;
+    background: url('Decore.png') no-repeat right top fixed;
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Reduced padding for smaller screens */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
 
+.logo {
+    width: 100px; /* Adjust width for responsiveness */
+}
 
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    gap: 20px; /* Adjust gap for smaller screens */
+    font-weight: 400;
+    font-size: 16px; /* Reduce font size */
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px; /* Adjusted width */
+    height: 30px; /* Adjusted height */
+    text-align: center;
+}
+
+.traveller {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px;
+}
+
+.metatag {
+    color: #DF6951;
+    font-weight: 700;
+    font-size: 18px; /* Adjusted font size */
+}
+
+.main-content h1 {
+    color: #181E4B;
+    font-size: 36px; /* Adjusted font size for smaller screens */
+    line-height: 1.2; /* Use line-height for spacing */
+}
+
+.content {
+    font-size: 14px; /* Reduced font size */
+}
+
+.button2 {
+    border-radius: 10px;
+    width: 140px; /* Reduced width */
+    height: 40px; /* Adjusted height */
+    border: 1px solid #F1A501;
+    background-color: #F1A501;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Reduced padding */
+    text-align: center;
+}
+
+.below {
+    display: flex;
+    flex-direction: column; /* Stack items on smaller screens */
+}
+
+.playbutton {
+    display: flex;
+    flex-direction: column; /* Stack items */
+}
+
+.section2, .section3 {
+    background-color: white;
+    width: 100%;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.upperhead {
+    text-align: center;
+}
+
+.card-container, .display-card {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center cards */
+    gap: 20px; /* Reduced gap for smaller screens */
+    padding: 20px; /* Reduced padding */
+}
+
+.card, .card2 {
+    width: 90%; /* Full width on small screens */
+    max-width: 300px; /* Limit maximum width */
+    border-radius: 36px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Adjusted padding */
+}
+
+.secimg {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.logosec {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center logos */
+    padding: 40px 20px; /* Reduced padding */
+}
+
+.lgos img {
+    width: 80px; /* Adjusted size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.secondlast {
+    width: 100%;
+    padding: 20px; /* Added padding */
+}
+
+.rect {
+    width: 90%; /* Full width on small screens */
+    max-width: 800px; /* Limit maximum width */
+    margin: auto; /* Center the rectangle */
+    padding: 20px;
+    background-color: #ededed;
+    border-radius: 20px; /* Reduced radius */
+}
+
+.rectp {
+    font-size: 24px; /* Adjusted font size */
+    text-align: center;
+}
+
+.inrect {
+    width: 90%; /* Full width on small screens */
+    max-width: 400px; /* Limit maximum width */
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.rectsec {
+    display: flex;
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: center; /* Center items */
+}
+
+.rectbutton {
+    width: 140px; /* Adjusted width */
+    height: 40px; /* Adjusted height */
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 20px; /* Added padding */
+}
+
+.footer-1 {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between;
+    padding: 20px; /* Added padding */
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: column; /* Stack items on smaller screens */
+    gap: 20px; /* Adjusted gap */
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjusted gap */
+}
+
+.icons, .googleplay {
+    display: flex;
+    justify-content: center; /* Center icons */
+    gap: 10px; /* Adjusted gap */
+}
+
+/* Media Queries for further responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items */
+        align-items: center; /* Center items */
+    }
+
+    .nav-items {
+        flex-direction: column; /* Stack nav items */
+        gap: 10px; /* Adjust gap */
+    }
+
+    .button, .button2, .rectbutton {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .card, .card2 {
+        width: 90%; /* Full width on small screens */
+    }
+
+    .footer-1 {
+        flex-direction: column; /* Stack footer items */
+        align-items: center; /* Center items */
+    }
+}
